@@ -11,3 +11,44 @@
 ul {
   list-style: none;
 }
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-profile {
+  height: 500px;
+}
+
+.repos-url,
+.user-link {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.user-link:hover,
+.repos-url:hover {
+  color: red;
+}
+p {
+  font-size: 18px;
+}
+
+.repos-url {
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.repository-title {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.repo-ul {
+  list-style: circle;
+}
